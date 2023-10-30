@@ -1,6 +1,6 @@
 import { program } from 'commander';
 import initialize from './lib/common.ts';
-import { config } from "./config/config.ts";
+import { config } from './config/config.ts';
 
 program
   .configureHelp({
