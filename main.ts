@@ -12,5 +12,6 @@ program
   .description('Example command from deno');
 
 (await import('./lib/command/message.ts')).default(program);
+(await import('./lib/command/joke.ts')).default(program);
 
 initialize(program);
